@@ -1,0 +1,159 @@
+.nuji-dashboard button {
+    box-shadow:none;
+}
+
+/*サイドメニュー内*/
+#side-menu {
+    transition: all 0.3s ease;
+    position:absolute;
+    top:0px;
+    left:-100%;
+    z-Index:1000;
+    overflow-Y:auto;
+    padding:20px;
+    width:100%;
+    max-width:500px;
+    border-radius:5px;
+    transition:left 0.3s ease;
+    background-color:var(--bg1,var(--background-primary));
+}
+
+#side-menu .menu_contents ul {
+    line-height:var(--line-height);
+    margin-left:10px;
+    padding:0px;
+}
+#side-menu .menu_contents li {
+    margin-bottom:0.4em;
+}
+
+#side-menu .count {
+    width:30%;
+    max-width:200px;
+    padding:5px;
+    border:0px;
+    background-color:var(--bg2,var(--background-secondary));
+    border-radius: 5px;
+    text-align: center;
+}
+#side-menu .count span {
+    font-size:0.9em;
+    color: var(--text-normal);
+}
+#side-menu .count p {
+    font-size:1.4em;
+    padding:0px;
+    margin:5px;
+}
+
+.nuji-dashboard .scheduled-date {
+    font-size:0.9em;
+    color: var(--text-highlight-fg);
+    background-color:var(--text-highlight-bg);
+    border-radius: 3px;
+    font-family:Monaco, Cantarell, 'Open Sans', sans-serif;
+    
+}
+
+#close-menu {
+    position:absolute;
+    right:20px;
+    background-color: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin:0;
+}
+.is-mobile #close-menu {
+    font-size: 2em;
+}
+
+.nuji-dashboard .db_today { /*日付表示*/
+    font-weight:700;
+    font-size:1.0em;
+    color:var(--text-muted);
+    margin:10px 0px 5px 0px;
+}
+
+.nuji-dashboard .inputarea {
+    text-align: right;
+    margin-bottom:10px;
+}
+
+.nuji-dashboard .inputarea textarea {
+    resize: none;
+    width:100%;
+    background-color:var(--bg2,var(--background-primary));
+    color:var(--text-normal);
+    font-size:1.0em;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.nuji-dashboard .nonstyle_btn {
+    color:var(--text-muted);
+    display:inline-block;
+    border:none;
+    background-color:transparent;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.nuji-dashboard .entry-wrapper {
+    list-style-type:none;
+    margin-top:10px;
+    margin-left:0px;
+    background-color:var(--bg2,var(--background-primary));
+    padding:10px;
+    border-radius:3px;
+}
+
+.nuji-dashboard .entry-time {
+    color: var(--text-faint);
+    font-size:0.8em;
+    user-select: text; 
+    pointer-events: auto; 
+}
+  
+.nuji-dashboard .entry-time svg {
+    fill: var(--text-faint);
+    width:0.9em;
+    height:0.9em;
+    margin-right:5px;
+}
+
+.nuji-dashboard .entry-content {
+    color: var(--text-muted);
+    font-size:0.96em;
+    margin-top:10px;
+    line-height:var(--line-height);
+    word-break: break-all;
+    user-select: text; 
+    pointer-events: auto; 
+}
+.nuji-dashboard .entry-content p {
+ margin:0;
+ padding:0;
+}
+
+/*is-mobileクラス：モバイル版*/
+.is-mobile .db_today{
+    font-size:1.2em;
+    font-weight:700;
+    width:200px;
+}
+.is-mobile .entry-wrapper,
+.is-mobile .inputarea textarea,
+.is-mobile .entry-content {
+    font-size:1.1em;
+    background-color:var(--bg1,var(--background-secondary));
+}
+
+.is-mobile .entry-time,
+.is-mobile .entry-time svg{
+    font-size:1.1em;
+}
+.is-mobile .nuji-dashboard .nonstyle_btn svg{
+    width:24px;
+    height:24px;
+}
