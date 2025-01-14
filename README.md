@@ -37,4 +37,6 @@ DailyNote/YYYY/YYYY-MM.md
 
 2.コミュニティプラグインのTemplaterを有効化  
 3.Trigger Templater on new file creation をオンにする  
-これで「今日のデイリーノートを開く」ボタンから自動でテンプレートのノートが作成されるようになります。
+これで「今日のデイリーノートを開く」ボタンから自動でテンプレートのノートが作成されるようになります。  
+  
+DailyNoteと共存させたい場合はPeriodic Notesプラグインとか使えばいいんじゃないかな…
