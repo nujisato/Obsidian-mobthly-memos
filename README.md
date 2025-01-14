@@ -3,7 +3,10 @@ monthly Noteに時刻付きでメモを書き込むためのプラグインで�
 自分用に作成したので設定を変更する機能はありません。  
 Monthly Noteは以下の形式で作成されている必要があります。  
 ```
-DailyNote/YYYY/YYYY-MM.md  
+場所：
+DailyNote/YYYY/YYYY-MM.md
+
+内容：
 # YYYY-MM-DD  
 # YYYY-MM-DD  
 …以下繰り返し
