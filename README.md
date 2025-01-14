@@ -34,9 +34,6 @@ DailyNote/YYYY/YYYY-MM.md
 - 新規ファイルの場所 `DailyNote`
 - テンプレートファイルの場所 `同梱のmonthlyノート.md`
 
-2.コミュニティプラグインのTemplaterを有効化
-3.Trigger Templater on new file creation をオンにする
+2.コミュニティプラグインのTemplaterを有効化  
+3.Trigger Templater on new file creation をオンにする  
 これで「今日のデイリーノートを開く」ボタンから自動でテンプレートのノートが作成されるようになります。
-
-# 機能
-DailyNote/YYYYフォルダ下YYYY-MM.mdを作成し、`#YYYY-MM-DD`以下に時刻付きで投稿内容を書き込みます。
