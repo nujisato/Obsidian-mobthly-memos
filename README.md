@@ -11,7 +11,7 @@ DailyNote/YYYY/YYYY-MM.md
 # YYYY-MM-DD  
 …以下繰り返し
 ```
-![[monthly-memos-sample.png]]
+![screenShot](https://github.com/nujisato/Obsidian-monthly-memos/blob/main/monthly-memos-sample.png?raw=true)
 
 ## 機能
 入力：テキストを入力して「Save」を押下すると、`YYYY/YYYY-MM.md`内の`#YYYY-MM-DD`以下に時刻付きでメモを書き込みます。  
